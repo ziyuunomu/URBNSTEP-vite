@@ -1,4 +1,20 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+/* 馬上註冊 */
+.discount {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: $primary-200;
+}
+
+footer {
+    padding-top: 139px;
+    padding-bottom: 139px;
+    background-color: $neutral-100;
+}
+
+ul {
+    padding: 0;
+}
+
+.border-top {
+    border-top: 1px solid $neutral-300;
 }

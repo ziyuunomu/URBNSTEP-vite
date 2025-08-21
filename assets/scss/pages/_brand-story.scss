@@ -1,0 +1,88 @@
+
+.header {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    text-align: center;
+    padding: 152px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767px){
+    .header {
+        padding: 87px 0;
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+    }
+}
+
+.section-slogan {
+    text-align: center;
+    border-radius: 16px;
+}
+
+@media (max-width: 767px){
+    .section-slogan {
+        text-align: left;
+    }
+}
+
+.section-lined {
+    border-bottom: 1px solid $neutral-300;
+}
+
+.history-line {
+    border-left: 1px solid $neutral-900;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.list-type-disc {
+    list-style-type: disc;
+    
+}
+
+.concept-line {
+    border-left: 3px solid $neutral-300;
+    padding-left: 12px;
+}
+
+.bi {
+    padding-right: 8px;
+    vertical-align: bottom;
+}
+
+.footer {
+    text-align: center;
+}
+
+.section-story a {
+    color: $primary-400;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.section-story a:hover {
+    background-color: $primary-200;
+}
+
+/* 馬上註冊 */
+.discount {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: $primary-200;
+}
+
+footer {
+    padding-top: 139px;
+    padding-bottom: 139px;
+    background-color: $neutral-100;
+}
+
+ul {
+    padding: 0;
+}
+
+.border-top {
+    border-top: 1px solid $neutral-300;
+}
+

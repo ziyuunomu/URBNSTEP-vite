@@ -1,0 +1,115 @@
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.produnt-col {
+    max-width: calc(100%/12*6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+@media (max-width: 767px) {
+    .produnt-col {
+        max-width: 100%;
+    }
+}
+
+.product-color {
+    width: 64px;
+    color: $neutral-600;
+    font-weight: 500;
+}
+
+/* 產品尺寸 */
+.btn-product-size,
+.btn-product-size-disabled {
+    width: 160px;
+    border: 1px solid $neutral-300;
+}
+
+.btn-product-size.active, 
+.btn-product-size:hover {
+    border: 1px solid $neutral-900;
+}
+
+@media (max-width: 767px) {
+    .btn-product-size {
+        padding: 12px 24px;
+    }
+}
+
+/* 收藏與預約 */
+.btn-collection {
+    width: 50%;
+    border: 1px solid $neutral-900;
+}
+
+.btn-reserve {
+    width: 50%;
+    border: 1px solid $neutral-900;
+}
+
+.btn-collection:hover {
+    background-color: $neutral-900;
+    color: $neutral-0;
+}
+
+@media (max-width: 767px) {
+    .btn-collection {
+        padding: 12px 83.5px;
+    }
+    .btn-reserve {
+        width: 100%;
+    }
+}
+
+.product-info p {
+    color: $neutral-600;
+}
+
+.product-info {
+    border-bottom: 1px solid $neutral-300;
+}
+
+/* 其他商品 */
+.other-products h4 {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+@media (max-width: 767px) {
+    .other-products-md-row {
+        margin-right: -8px;
+        margin-left: -8px;
+    }
+    .other-products-md-col {
+        min-width: 316px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+/* 馬上註冊 */
+.discount {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: $primary-200;
+}
+
+footer {
+    padding-top: 139px;
+    padding-bottom: 139px;
+    background-color: $neutral-100;
+}
+
+ul {
+    padding: 0;
+}
+
+.border-top {
+    border-top: 1px solid $neutral-300;
+}
+

@@ -1,0 +1,30 @@
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width: 576px){
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+.btn-bk {
+    background-color: $neutral-900;
+    color: $neutral-0;
+}
+
+.btn-bk:hover {
+    animation: oxxo-a 0.2s infinite alternate;
+}
+
+@keyframes oxxo-a {
+    0% {scale: 1;}
+    100% {scale: 1.1;}
+}
